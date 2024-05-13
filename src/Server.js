@@ -13,7 +13,7 @@ const cors = require('cors')
 
 //use cors to connect to frontend
 app.use(cors(
-    {origin: ['http://localhost:3000']}
+    {origin: ['http://localhost:3000', 'https://authentication-4sfh-reglog.vercel.app']}
 ))
 
 //send request--->to be done after done with route
